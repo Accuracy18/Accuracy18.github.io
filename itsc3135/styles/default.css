@@ -1,0 +1,52 @@
+body{
+    background-color: darkslategray;
+    text-align: center;
+    color: black;
+    font-family: monospace;
+}
+
+a{
+    color: cornsilk;
+    text-decoration: none;
+}
+
+a:hover{
+    color: crimson;
+    text-decoration: line;
+}
+
+main{ 
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+h2{
+    text-align: center;
+}
+
+.list-guy{
+    list-style-type: disc;
+    font-size:14pt;
+}
+
+.insider{
+    list-style-type: circle;
+}
+
+span{
+    font-size:14pt;
+}
+
+p{
+    font-size: 10px;
+}
+
+img{
+    width: 50%;
+}
+
+figure{
+    text-align: center;
+    font-style: italic;
+}
