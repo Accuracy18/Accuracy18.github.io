@@ -1,0 +1,20 @@
+body{
+	background-color: darkgreen;
+	text-align: center;
+	font-family: monospace;
+}
+
+.complex{
+	width:75%;
+	border:0.75pt solid #000000;
+	border-collapse:collapse;
+	margin: auto;
+}
+
+.tops{
+	height:27pt;
+}
+
+.ones{
+	height: 12.5pt;
+}

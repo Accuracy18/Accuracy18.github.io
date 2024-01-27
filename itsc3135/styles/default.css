@@ -50,3 +50,18 @@ figure{
     text-align: center;
     font-style: italic;
 }
+
+.complex{
+	width:90%;
+	border:0.75pt solid #000000;
+	border-collapse:collapse;
+	margin: auto;
+}
+
+.tops{
+	height:27pt;
+}
+
+.ones{
+	height: 12.5pt;
+}
