@@ -1,0 +1,56 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Imaginary Business</title>
+    <link rel=stylesheet href='./styles/form.css'>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to My Imaginary Business</h1>
+        <nav>
+	         <a href='index.html'>Home</a>
+	         <a href='introduction.html'>Introduction</a>
+	         <a href='contract.html'>Contract</a>
+	         <a href='tables.html'>Tables</a>
+	         <a href='form.html'>Form</a>
+	     </nav>
+    </header>
+
+    <main>
+        <form method="post" id="businessForm">
+       
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required placeholder="Enter your name">
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required placeholder="Enter your phone number">
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required placeholder="Enter your email address">
+
+            <label>Choose your interests:</label>
+            <input type="checkbox" id="interest1" name="interests" value="interest1">
+            <label for="interest1">Interest 1</label>
+            <input type="checkbox" id="interest2" name="interests" value="interest2">
+            <label for="interest2">Interest 2</label>
+
+            <label>Select your gender:</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+
+            <label for="country">Select your country:</label>
+            <select id="country" name="country" required>
+                <option value="" disabled selected>Select your country</option>
+                <option value="usa">USA</option>
+                <option value="canada">Canada</option>
+                <option value="uk">UK</option>
+            </select>
+
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+</body>
